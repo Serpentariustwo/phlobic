@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(241, 226, 255);
+}
+h1 {    
+    font-size: 25px;
+    font-family: Verdana;
+    text-decoration: none;
+}
+div{
+    background-color: rgb(255, 206, 200);
+    border: 100px;
+    border-color: violet;
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+}
+.salmonButton{
+    font-size: 25px;
+}
