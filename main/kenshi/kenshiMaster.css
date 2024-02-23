@@ -13,16 +13,34 @@ h1 {
     padding-bottom: 12px;
     display: block;
     margin: auto;
-    width: 50%;
+    width: 60%;
     height: 50px;
+}
+.body{
+    background-color: rgb(158, 124, 0);
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-family: Verdana;
+    max-width: 60%;
+    padding-top: 0.25%;
+    padding-bottom: 0.25%;
+}
+.sideCol{
+    background-color: rgb(211, 199, 132);
+    text-align: center;
+    display: inline-block;
+    /* margin: auto; */
+    font-family: Verdana;
+    max-width: 22%;
+    padding-inline: 1%;
 }
 .mainCol{
     background-color: rgb(211, 199, 132);
-    text-align: left;
-    padding-top: 1px;
-    padding-bottom: 12px;
-    display: block;
-    margin: auto;
-    width: 33%;
-    height: 50px;
+    text-align: center;
+    display: inline-block;
+    /* margin: auto; */
+    font-family: Verdana;
+    max-width: 48%;
+    padding-inline: 1%;
 }
