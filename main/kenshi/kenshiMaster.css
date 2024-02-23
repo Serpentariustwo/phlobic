@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(207, 198, 167);
+}
+h1 {    
+    font-size: 25px;
+    font-family:'Times New Roman';
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(185, 172, 97);
+    text-align: center;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+}
+.mainCol{
+    background-color: rgb(211, 199, 132);
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 12px;
+    display: block;
+    margin: auto;
+    width: 33%;
+    height: 50px;
+}
