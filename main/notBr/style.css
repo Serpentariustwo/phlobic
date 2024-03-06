@@ -6,7 +6,7 @@
 
 .theme-dark {
     --color1: rgb(245, 245, 245); /*text*/
-    --color2: rgb(43, 42, 51); /*background*/
+    --color2: rgb(46, 46, 46); /*background*/
     --color3: rgb(23, 23, 23); /*selected button text*/ 
 }
 
@@ -20,7 +20,8 @@
     box-sizing: border-box;
     font: inherit;
     vertical-align: baseline;
-    font-family: 'Work Sans', 'Vazirmatn', sans-serif;
+    /* font-family: 'Work Sans', 'Vazirmatn', sans-serif; */
+    font-family: monospace;
     font-weight: 400;
     line-height: 1.5rem;
     color: var(--color1);
@@ -315,9 +316,16 @@ main {
     min-height: 5rem;
 }
 
+.fixed-controls.topLeft {
+    top: 0 ;
+    left: 0 ;
+}
+
 .fixed-controls.top {
     top: 0;
+    right: 0;
 }
+
 
 /*.toggle-display {}*/
 
