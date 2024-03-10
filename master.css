@@ -1,51 +1,66 @@
 body {
-    background-color: rgb(241, 226, 255);
+    background-color: rgb(120, 68, 163);
+    /* background-image: url("background-tile.jpg"); */
+    /* background-image: linear-gradient(#E40303,#FF8C00,#FFED00,#008026,#24408E,#732982,#FFFFFF,#FFAFC8,#74D7EE,#613915,#000000); */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(boccher.png);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: whitesmoke
 }
 
-h1 {    
-    font-size: 25px;
-    font-family: Verdana;
-    text-decoration: none;
+.bodyA{
+    background-color: rgba(165, 142, 184, 0.90);
+    padding-top: 0.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 40%;
+    /* max-height: 40%; */
+    margin: auto;
 }
 
 h2 {    
     font-size: 25px;
-    font-family: Verdana;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+.button {
+    background-color: #6c378b;
+    border: dotted #8f48b8;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
-.header{
-    background-color: rgb(255, 206, 200);
-    border: 100px;
-    border-color: violet;
+.button:hover{
+    background-color: #8f48b8;
+    border: dotted #6c378b;
+    color: #eeff00;
+    /* font-size: 1.2rem; */
+}
+
+.h1Special {
+    margin-top: 0px;
+    margin-bottom: 50px;
     text-align: center;
-    padding-top: 1px;
-    padding-bottom: 12px;
-    display: block;
-    margin: auto;
-    width: 50%;
-    height: 50px;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.15rem;
+    /* text-transform: uppercase; */
+    color: #fff;
+    text-shadow: -3px 3px #E40303,
+                 -6px 6px #FF8C00,
+                 -9px 9px #FFED00,
+                 -12px 12px #008026,
+                 -15px 15px #24408E,
+                 -18px 18px #732982,
+                 -21px 21px #FFFFFF,
+                 -24px 24px #FFAFC8,
+                 -27px 27px #74D7EE,
+                 -30px 30px #613915,
+                 -33px 33px #000000;
 }
-
-.salmonButton{
-    font-size: 25px;
-}
-
-
-
-/* body {
-    background-color: rgb(161, 161, 161);
-} */
-
-/*div{
-    background-color: salmon;
-    box-shadow: 10px 10px orange;
-    text-align: center;
-    padding-top: 1px;
-    padding-bottom: 12px;
-    width: 800px;
-    height: 50px;
-    margin: auto;
-} */
