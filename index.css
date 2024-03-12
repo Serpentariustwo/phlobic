@@ -36,6 +36,10 @@ h2 {
     font-size: 16px;
 }
 
+/* .constr button{
+    border: dotted #c2d327;
+} */
+
 .button:hover{
     background-color: #8f48b8;
     border: dotted #6c378b;
