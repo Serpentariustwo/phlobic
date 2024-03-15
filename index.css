@@ -66,7 +66,7 @@ button {
     -33px 33px #000000;
 }
 
-@media only screen and (max-width: 700px){
+@media (pointer:none),(pointer:coarse) {
     .bodyA{
         max-width: 80%;
     }
