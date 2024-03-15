@@ -19,6 +19,7 @@ body {
     margin: auto;
 }
 
+
 h2 {    
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
@@ -53,14 +54,23 @@ button {
     /* text-transform: uppercase; */
     color: #fff;
     text-shadow: -3px 3px #E40303,
-                 -6px 6px #FF8C00,
-                 -9px 9px #FFED00,
-                 -12px 12px #008026,
-                 -15px 15px #24408E,
-                 -18px 18px #732982,
-                 -21px 21px #FFFFFF,
-                 -24px 24px #FFAFC8,
-                 -27px 27px #74D7EE,
-                 -30px 30px #613915,
-                 -33px 33px #000000;
+    -6px 6px #FF8C00,
+    -9px 9px #FFED00,
+    -12px 12px #008026,
+    -15px 15px #24408E,
+    -18px 18px #732982,
+    -21px 21px #FFFFFF,
+    -24px 24px #FFAFC8,
+    -27px 27px #74D7EE,
+    -30px 30px #613915,
+    -33px 33px #000000;
+}
+
+@media only screen and (max-width: 700px){
+    .bodyA{
+        max-width: 80%;
+    }
+    .h1Special{
+        font-size: 2rem;
+    }
 }
