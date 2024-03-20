@@ -605,7 +605,8 @@ progress {
   max-height: 335px;
   max-width: 335px;
   min-width: 335px;
-  height: auto;
+  min-height: 335px;
+  /* height: auto; */
   /* width: auto; */
 }
 
