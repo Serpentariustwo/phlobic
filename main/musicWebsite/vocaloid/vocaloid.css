@@ -600,14 +600,14 @@ progress {
 
 /* image pill capsule change thing :3 */
 .img-fluid {
-  /* max-width: 100%;
-  height: auto; */
-  max-height: 335px;
+  max-width: 100%;
+  height: auto;
+  /* max-height: 335px;
   max-width: 335px;
   min-width: 335px;
-  min-height: 335px;
-  /* height: auto; */
-  /* width: auto; */
+  min-height: 335px; */
+  height: auto;
+  width: auto;
 }
 
 .img-thumbnail {
