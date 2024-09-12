@@ -1,3 +1,6 @@
-h1 {
-   text-align: center; 
+th{
+    width: 1%;
+}
+tr {
+    background-color: green;
 }
