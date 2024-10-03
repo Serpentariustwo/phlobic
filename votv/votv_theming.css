@@ -1,6 +1,106 @@
-th{
-    width: 1%;
+.theme-Alpen-Signal-Observatorium-light {
+    --colour1: #EBEBEB;
+    --colour2: #adadad;
+    --colour3: #DADADA;
+    --colour4: #FFFFFF;
+    --colour5: #FF9900;
+    --colour6: #995C00;
+    --colour7: #A97EDD;
+
+    --navBarGradient: linear-gradient(180deg, var(--colour1) 0%, var(--colour2) 100%);
 }
-tr {
-    background-color: green;
+
+.theme-fae {
+    --colour1: #97C3A5;
+    --colour2: #C3DEAE;
+    --colour3: #F9FACD;
+    --colour4: #FFFFFF;
+    --colour5: #FCA2C4;
+    --colour6: #DB8AE4;
+    --colour7: #A97EDD;
+}
+
+/* https://paletton.com/#uid=34G0F0kq0s5j9ule6EeiK6BmEfE */
+/* http://127.0.0.1:5500/votv/index.html */
+
+.rcorners1 {
+    border-radius: 12px;
+}
+
+#nav_bar{
+    padding: 0.5rem;
+    height: 96px;
+    width: 99%;
+    background: linear-gradient(180deg, var(--colour1) 0%, var(--colour2) 100%);
+}
+
+#body_container{
+    margin-top: 20px;
+    min-height: 500px;
+    background: var(--colour3);
+}
+
+.container {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+#nav_bar_container > nav {
+    background: linear-gradient(180deg, var(--colour1) 0%, var(--colour2) 100%);
+    width: 98%;
+    display:flex;
+    max-height:60px;
+    height: 60px;
+    /* padding: 0.5rem; */
+    height: 96px;
+    width: 99%;
+}
+
+#nav_bar_container > nav > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 5px;
+    /* min-width: 60%; */
+}
+#nav_bar_container > nav > ul > li {
+    line-height: 60px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+    border-left: orange;
+    /* filter: opacity(0%); */
+} 
+#nav_bar_container > nav > ul > li:hover {
+    color: #FCA2C4;
+    filter: opacity(50%);
+    filter: brightness(75%);
+    background-color: var(--colour1);
+} 
+#nav_bar_container > nav > ul > li > a {
+    min-height: 100%;
+    position: relative;
+    margin: 0 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(assets/starry_sky_fade.png);
+    background-repeat: no-repeat;
+    background-position: right-top;
+    background-attachment: scroll;
+    background-size: 100%,100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
