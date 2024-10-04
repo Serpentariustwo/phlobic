@@ -62,7 +62,7 @@
     list-style-type: none;
     display: flex;
     position: absolute;
-    left: 5px;
+    left: 2%;
     /* min-width: 60%; */
 }
 #nav_bar_container > nav > ul > li {
@@ -88,6 +88,15 @@
     text-decoration: none;
 }
 
+#nav_bar_container > nav > div > img {
+    /* width: 100%; */
+    margin-left: 3%;
+    height: 90%;
+    margin-top: 1%;
+    vertical-align: middle;
+    object-fit:scale-down;
+    
+}
 body{
     background-image: url(assets/starry_sky_fade.png);
     background-repeat: no-repeat;
@@ -95,12 +104,12 @@ body{
     background-attachment: scroll;
     background-size: 100%,100%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+    /* border: 1px solid #ddd; */
+    /* border-radius: 4px; */
+    /* padding: 5px; */
+    /* width: 150px; */
+    color: navajowhite;
 }
