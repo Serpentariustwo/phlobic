@@ -9,7 +9,6 @@
 
     --navBarGradient: linear-gradient(180deg, var(--colour1) 0%, var(--colour2) 100%);
 }
-
 .theme-fae {
     --colour1: #97C3A5;
     --colour2: #C3DEAE;
@@ -23,13 +22,11 @@
 }
 
 /* https://paletton.com/#uid=34G0F0kq0s5j9ule6EeiK6BmEfE */
-/* http://127.0.0.1:5500/votv/index.html */
 
 /* Containers */
 .rcorners1 {
     border-radius: 12px;
 }
-
 .container {
     margin-left: 2%;
     margin-right: 2%;
@@ -45,7 +42,6 @@
     align-content: stretch;
     margin-top: 25px;
     min-height: 60px;
-    height: fit-content;
 }
 #nav_bar_container > nav > ul {
     margin: 0;
@@ -54,10 +50,9 @@
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    margin-left: 3%;
-    /* min-width: 60%; */
+    margin-left: 0.86%;
 }
-#aso_logo {
+#nav_bar_container > nav > ul > img {
     max-height: 60px;
 }
 #nav_bar_container > nav > ul > li {
@@ -82,14 +77,7 @@
     font-weight: bold;
     text-decoration: none;
 }
-#nav_bar_container > nav > div > img {
-    /* width: 100%; */
-    margin-left: 4%;
-    height: 90%;
-    margin-top: 1%;
-    vertical-align: middle;
-    object-fit:scale-down;
-}
+/* end of navbar container */
 /* body container */
 #body_container{
     margin-top: 20px;
@@ -102,6 +90,7 @@
 #body_container > h1 {
     margin-left: 10px;
 }
+/* end of body container */
 
 body{
     background: rgb(101,167,200);
